@@ -4,7 +4,7 @@ from newspaper import Article
 with open('text.txt', 'r') as file:
     text = file.read()
     
-url = 'https://www.bbc.com/news/articles/cze10y59j91o'
+url = 'https://www.bbc.com/news/articles/cze10y59j91o'    #PLACE YOUR NEWS ARTICLE HERE
 article = Article(url)
 
 article.download()
